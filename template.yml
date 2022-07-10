@@ -7,7 +7,7 @@ Resources:
       SecurityGroups:
         - !Ref InstanceSecurityGroup
       KeyName: ansible
-      ImageId: 'ami-0888c389af05d881a' 
+      ImageId: 'ami-08d4ac5b634553e16' 
       InstanceType: t3.micro
   InstanceSecurityGroup:
     Type: 'AWS::EC2::SecurityGroup'
