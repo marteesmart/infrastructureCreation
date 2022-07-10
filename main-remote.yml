@@ -1,6 +1,6 @@
 ---
 # Exercise for setting up a web server in an EC
-- name: Exercise for setting up a web server in an EC   
+- name: Exercise for setting up a web server in an EC2 iinstance
   # Use the public IP if the VM is already created
   hosts: all
   # For Ubuntu instances, the user will be `ubuntu`
