@@ -51,7 +51,8 @@ jobs:
       - run:
           name: smoke test
           command: |
-            URL="https://blog.udacity..com/"
+            #URL="https://blog.udacity..com/" #fail
+            URL="https://blog.udacity.com/" #pass
             if curl -s --head ${URL} 
             then
               return 0
