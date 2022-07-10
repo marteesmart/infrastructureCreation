@@ -72,7 +72,7 @@ jobs:
 
   smoke-test:
     docker:
-      - image: 
+      - image: alpine:latest
     steps:
       - run:
           name: test-fail
